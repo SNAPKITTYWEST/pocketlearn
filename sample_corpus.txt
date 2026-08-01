@@ -1,0 +1,7 @@
+pocketforth is a pocket forth engine that executes inside a transformer harness.
+forth is stack based. stack operations include dup drop swap over.
+dictionary contains words are defined with colon and semicolon.
+compiler compiles words interpreter interprets words.
+learns statistical relationships in text xslt generates code from xml.
+asp validates architecture constraints cooccurrence pmi embeddings.
+neural network capture similarity transformer learns statistical relationships.
