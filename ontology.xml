@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<ontology name="PocketForthConcepts" derived_from="sample_corpus.txt">
+  <concepts>
+    <concept id="forth_word" is_a="root"/>
+    <concept id="stack_op" is_a="forth_word">
+      <member word="stack"      strength="1"/>
+      <member word="dup"        strength="3"/>
+      <member word="drop"       strength="3"/>
+      <member word="swap"       strength="3"/>
+      <member word="over"       strength="2"/>
+      <member word="operations" strength="2"/>
+    </concept>
+    <concept id="dict_op" is_a="forth_word">
+      <member word="dictionary" strength="2"/>
+      <member word="words"      strength="3"/>
+      <member word="contains"   strength="3"/>
+      <member word="holds"      strength="0"/>
+    </concept>
+    <concept id="compiler_word" is_a="forth_word">
+      <member word="compiler"   strength="2"/>
+      <member word="compiles"   strength="2"/>
+      <member word="colon"      strength="2"/>
+      <member word="semicolon"  strength="3"/>
+      <member word="defined"    strength="1"/>
+    </concept>
+    <concept id="interpreter_word" is_a="forth_word">
+      <member word="interpreter" strength="1"/>
+      <member word="interprets"  strength="1"/>
+    </concept>
+    <concept id="engine_word" is_a="forth_word">
+      <member word="pocketforth" strength="0"/>
+      <member word="engine"      strength="2"/>
+      <member word="pocket"      strength="1"/>
+      <member word="executes"    strength="2"/>
+      <member word="inside"      strength="1"/>
+      <member word="harness"     strength="0"/>
+    </concept>
+    <concept id="meta_word" is_a="forth_word">
+      <member word="transformer"  strength="0"/>
+      <member word="xslt"         strength="2"/>
+      <member word="asp"          strength="3"/>
+      <member word="xml"          strength="3"/>
+      <member word="code"         strength="3"/>
+      <member word="generates"    strength="2"/>
+      <member word="validates"    strength="3"/>
+      <member word="architecture" strength="3"/>
+      <member word="constraints"  strength="1"/>
+    </concept>
+    <concept id="learning_word" is_a="forth_word">
+      <member word="learns"        strength="5"/>
+      <member word="statistical"   strength="3"/>
+      <member word="relationships" strength="5"/>
+      <member word="text"          strength="1"/>
+      <member word="cooccurrence"  strength="2"/>
+      <member word="pmi"           strength="2"/>
+      <member word="embeddings"    strength="6"/>
+      <member word="neural"        strength="3"/>
+      <member word="network"       strength="4"/>
+      <member word="capture"       strength="2"/>
+      <member word="similarity"    strength="1"/>
+    </concept>
+  </concepts>
+</ontology>
