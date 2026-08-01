@@ -1,0 +1,35 @@
+<!-- ontology.dtd — PocketLearn Ontology DTD -->
+<!-- ISO 8879:1986 SGML Document Type Definition -->
+<!-- Validates ontology.xml and ontology_induced.xml before XSLT processing. -->
+<!-- Connects to: corpus_to_background.xslt, ontology_to_induction.xslt -->
+
+<!ELEMENT ontology - - (concepts)>
+<!ATTLIST ontology
+  name         CDATA #REQUIRED
+  derived_from CDATA #IMPLIED
+  version      CDATA #IMPLIED>
+
+<!ELEMENT concepts - - (concept+)>
+
+<!ELEMENT concept - - (member*, induced_rule?)>
+<!ATTLIST concept
+  id              ID     #REQUIRED
+  is_a            CDATA  #REQUIRED
+  induced_context CDATA  #IMPLIED
+  f1              CDATA  #IMPLIED>
+
+<!-- Member: a word belonging to this concept -->
+<!ELEMENT member - O EMPTY>
+<!ATTLIST member
+  word       CDATA  #REQUIRED
+  strength   NUMBER #REQUIRED
+  source     (seed|induced) #IMPLIED
+  induced_by CDATA  #IMPLIED>
+
+<!-- Induced rule: ILP-learned rule for this concept -->
+<!ELEMENT induced_rule - - (#PCDATA)>
+
+<!-- Entities for common concept hierarchy -->
+<!ENTITY forth_word_hierarchy "is_a='forth_word'">
+<!ENTITY seed_member          "source='seed'">
+<!ENTITY induced_member       "source='induced'">
