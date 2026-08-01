@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ontology name="PocketForthConcepts-Induced" derived_from="ILP">
+  <concepts>
+    <concept id="stack_op" is_a="forth_word" induced_context="drop" f1="0.60">
+      <induced_rule>is_a(W, stack_op) :- cooccur(W, 'drop').</induced_rule>
+      <member word="stack"      source="seed"    strength="8"/>
+      <member word="dup"        source="seed"    strength="4"/>
+      <member word="drop"       source="seed"    strength="3"/>
+      <member word="swap"       source="seed"    strength="3"/>
+      <member word="over"       source="seed"    strength="2"/>
+      <member word="include"    source="induced" strength="1" induced_by="drop"/>
+    </concept>
+    <concept id="compiler_word" is_a="forth_word" induced_context="semicolon" f1="0.75">
+      <induced_rule>is_a(W, compiler_word) :- cooccur(W, 'semicolon').</induced_rule>
+      <member word="compiler"  source="seed"    strength="2"/>
+      <member word="colon"     source="seed"    strength="2"/>
+      <member word="semicolon" source="seed"    strength="3"/>
+      <member word="defined"   source="induced" strength="1" induced_by="semicolon"/>
+    </concept>
+    <concept id="learning_word" is_a="forth_word" induced_context="statistical" f1="0.80">
+      <induced_rule>is_a(W, learning_word) :- cooccur(W, 'statistical').</induced_rule>
+      <member word="learns"        source="seed"    strength="5"/>
+      <member word="statistical"   source="seed"    strength="3"/>
+      <member word="relationships" source="seed"    strength="5"/>
+      <member word="embeddings"    source="seed"    strength="6"/>
+      <member word="neural"        source="seed"    strength="3"/>
+      <member word="network"       source="seed"    strength="4"/>
+      <member word="similarity"    source="induced" strength="1" induced_by="statistical"/>
+    </concept>
+  </concepts>
+</ontology>
