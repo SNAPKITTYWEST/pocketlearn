@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<corpus source="sample_corpus.txt">
+  <vocab>
+    <word id="0">pocketforth</word>
+    <word id="1">is</word>
+    <word id="2">a</word>
+    <word id="3">pocket</word>
+    <word id="4">forth</word>
+    <word id="5">engine</word>
+    <word id="6">that</word>
+    <word id="7">executes</word>
+    <word id="8">inside</word>
+    <word id="9">transformer</word>
+    <word id="10">harness</word>
+    <word id="11">stack</word>
+    <word id="12">based</word>
+    <word id="13">operations</word>
+    <word id="14">include</word>
+    <word id="15">dup</word>
+    <word id="16">drop</word>
+    <word id="17">swap</word>
+    <word id="18">over</word>
+    <word id="19">dictionary</word>
+    <word id="20">contains</word>
+    <word id="21">words</word>
+    <word id="22">are</word>
+    <word id="23">defined</word>
+    <word id="24">with</word>
+    <word id="25">colon</word>
+    <word id="26">and</word>
+    <word id="27">semicolon</word>
+    <word id="28">compiler</word>
+    <word id="29">compiles</word>
+    <word id="30">interpreter</word>
+    <word id="31">interprets</word>
+    <word id="32">learns</word>
+    <word id="33">statistical</word>
+    <word id="34">relationships</word>
+    <word id="35">in</word>
+    <word id="36">text</word>
+    <word id="37">xslt</word>
+    <word id="38">generates</word>
+    <word id="39">code</word>
+    <word id="40">from</word>
+    <word id="41">xml</word>
+    <word id="42">asp</word>
+    <word id="43">validates</word>
+    <word id="44">architecture</word>
+    <word id="45">constraints</word>
+    <word id="46">cooccurrence</word>
+    <word id="47">pmi</word>
+    <word id="48">embeddings</word>
+    <word id="49">neural</word>
+    <word id="50">network</word>
+    <word id="51">capture</word>
+    <word id="52">similarity</word>
+  </vocab>
+  <tokens>
+    <token id="0"  pos="0">pocketforth</token>
+    <token id="1"  pos="1">is</token>
+    <token id="2"  pos="2">a</token>
+    <token id="3"  pos="3">pocket</token>
+    <token id="4"  pos="4">forth</token>
+    <token id="5"  pos="5">engine</token>
+    <token id="6"  pos="6">that</token>
+    <token id="7"  pos="7">executes</token>
+    <token id="8"  pos="8">inside</token>
+    <token id="9"  pos="9">a</token>
+    <token id="10" pos="10">transformer</token>
+    <token id="11" pos="11">harness</token>
+    <token id="12" pos="12">forth</token>
+    <token id="13" pos="13">is</token>
+    <token id="14" pos="14">stack</token>
+    <token id="15" pos="15">based</token>
+    <token id="16" pos="16">stack</token>
+    <token id="17" pos="17">operations</token>
+    <token id="18" pos="18">include</token>
+    <token id="19" pos="19">dup</token>
+    <token id="20" pos="20">drop</token>
+    <token id="21" pos="21">swap</token>
+    <token id="22" pos="22">over</token>
+    <token id="23" pos="23">dictionary</token>
+    <token id="24" pos="24">contains</token>
+    <token id="25" pos="25">words</token>
+    <token id="26" pos="26">are</token>
+    <token id="27" pos="27">defined</token>
+    <token id="28" pos="28">with</token>
+    <token id="29" pos="29">colon</token>
+    <token id="30" pos="30">and</token>
+    <token id="31" pos="31">semicolon</token>
+    <token id="32" pos="32">compiler</token>
+    <token id="33" pos="33">compiles</token>
+    <token id="34" pos="34">words</token>
+    <token id="35" pos="35">interpreter</token>
+    <token id="36" pos="36">interprets</token>
+    <token id="37" pos="37">words</token>
+    <token id="38" pos="38">learns</token>
+    <token id="39" pos="39">statistical</token>
+    <token id="40" pos="40">relationships</token>
+    <token id="41" pos="41">in</token>
+    <token id="42" pos="42">text</token>
+    <token id="43" pos="43">xslt</token>
+    <token id="44" pos="44">generates</token>
+    <token id="45" pos="45">code</token>
+    <token id="46" pos="46">from</token>
+    <token id="47" pos="47">xml</token>
+    <token id="48" pos="48">asp</token>
+    <token id="49" pos="49">validates</token>
+    <token id="50" pos="50">architecture</token>
+    <token id="51" pos="51">constraints</token>
+    <token id="52" pos="52">cooccurrence</token>
+    <token id="53" pos="53">pmi</token>
+    <token id="54" pos="54">embeddings</token>
+    <token id="55" pos="55">neural</token>
+    <token id="56" pos="56">network</token>
+    <token id="57" pos="57">capture</token>
+    <token id="58" pos="58">similarity</token>
+    <token id="59" pos="59">transformer</token>
+    <token id="60" pos="60">learns</token>
+    <token id="61" pos="61">statistical</token>
+    <token id="62" pos="62">relationships</token>
+  </tokens>
+</corpus>
